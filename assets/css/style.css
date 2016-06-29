@@ -1,0 +1,66 @@
+#YourName {
+	float:left;
+	position: relative;
+	font-family: Impact;
+	left: 200px;
+	text-align: center;
+	width:140px;
+	height:40px;
+	font-size: 36px;
+	background: #4aaaa5;
+	color:white;
+	padding: 15px 30px 15px 30px;
+}
+#About{
+	float: right;
+	background: white;
+	padding: 15px 30px 15px 30px
+}
+#Contact{
+	float: right;
+	background:white;
+	padding: 15px 30px 15px 30px;
+}
+#Portfolio{
+	float: right;
+	background: white;
+	padding: 15px 30px 15px 30px;
+}
+#container{
+	background:black;
+	width:1000px;
+	clear:both;
+}
+h1{
+	margin:0;
+	color: #4aaaa5;
+	font-size: 36px;
+	padding: 15px;
+}
+#AboutMe{
+	float:left;
+	position: relative;
+	left: 200px;
+	top: 100px;
+	width:500px;
+	height:420px;
+	background-color:#dedede;
+	overflow:auto;
+}
+#profileimage{
+	float:left;
+	padding: 15px;
+}
+#introduction{
+	overflow-wrap:all;
+}
+#connect{
+	float:right;
+	position:relative;
+	left:400px;
+	top: 100px;
+	width:500px;
+	height:420px;
+	background-color:#dedede;
+	overflow:auto;
+}
