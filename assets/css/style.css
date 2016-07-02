@@ -1,66 +1,328 @@
-#YourName {
-	float:left;
-	position: relative;
-	font-family: Impact;
-	left: 200px;
-	text-align: center;
-	width:140px;
-	height:40px;
-	font-size: 36px;
-	background: #4aaaa5;
-	color:white;
-	padding: 15px 30px 15px 30px;
-}
-#About{
-	float: right;
-	background: white;
-	padding: 15px 30px 15px 30px
-}
-#Contact{
-	float: right;
-	background:white;
-	padding: 15px 30px 15px 30px;
-}
-#Portfolio{
-	float: right;
-	background: white;
-	padding: 15px 30px 15px 30px;
-}
-#container{
-	background:black;
-	width:1000px;
-	clear:both;
-}
-h1{
+
+
+/*This Applies to ALL Page*/
+h1 {
+	float: left;
+	width: 250px;
+	font-size: 30px;
+	font: bold;
+	font-family: Georgia;
+	background: teal;
+	padding:20px;
 	margin:0;
-	color: #4aaaa5;
-	font-size: 36px;
-	padding: 15px;
-}
-#AboutMe{
-	float:left;
+	color: #ffffff;
 	position: relative;
-	left: 200px;
-	top: 100px;
-	width:500px;
-	height:420px;
-	background-color:#dedede;
-	overflow:auto;
+	left: 125px;
+	bottom: 30px;
+	text-align:center;
 }
-#profileimage{
-	float:left;
-	padding: 15px;
+
+header {
+	background: white;
+	margin:0px;
+	padding-top:20px;
+	padding-bottom:18px;
+	text-decoration: none;
 }
-#introduction{
-	overflow-wrap:all;
+
+#list li{
+	float: right;
+	margin-top: 0px;
+	margin-right: 100px;
+	position: relative;
+	bottom: 30px;
+	right:20px;
+	font-family: sans-serif;
+	font-color:#efeee7;
+	display:inline;
+	text-decoration:none;
 }
-#connect{
-	float:right;
+#contact{
+	background:white;
+	border:0;
+	margin:0;
 	position:relative;
-	left:400px;
-	top: 100px;
-	width:500px;
-	height:420px;
-	background-color:#dedede;
-	overflow:auto;
+	right:200px;
+	font-size:20px;
+	padding:10px;
+	text-decoration:none;
 }
+#contact:hover{
+	color:green;
+}
+#portfolio{
+	background:white;
+	border:0;
+	margin:0;
+	position:relative;
+	right:160px;
+	font-size:20px;
+	padding:10px;
+	text-decoration:none;
+}
+#portfolio:hover{
+	color:green;
+}
+#about{
+	background:white;
+	border:0;
+	margin:0;
+	position:relative;
+	right:120px;
+	font-size:20px;
+	padding:10px;
+	text-decoration:none;
+}
+#about:hover{
+	color:green;
+}
+
+body {
+	font-size: 24px;
+	font-family: sans-serif;
+	line-height: 32px;
+	margin:0;
+	padding: 0;
+	background-color: #efeee7;
+}
+
+#container{
+	width: 1362px;
+	height: 530px;
+	margin: 0 auto;
+	border:0 auto;
+}
+
+.connectwithme {
+	float: right;
+	margin-top: 30px;
+	padding-top:20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	position:relative;
+	right:230px;
+	bottom:15px;
+}
+
+#connect{
+	float: right;
+	font-family: georgia;
+	color: teal;
+	text-align: center;
+	width: 300px;
+	height: 150px;
+}
+
+#link li{
+	padding: 0;
+	display: inline;
+	position:relative;
+	top: 10px;
+	right:15px;
+}
+
+#footer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 20px;
+	padding: 0;
+}
+
+footer{
+	padding: 30px;
+	background-color: #666666;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+	border-top-style:solid;
+	color:#777777;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+/*This is "About" Page material*/
+
+#profileimg{
+	float:left;
+	padding-right:15px;
+	position:relative;
+	top:10px;
+}
+
+.aboutme {
+	float: left;
+	margin-top: 40px;
+	width: 600px;
+	padding: 50px;
+	height:450px;
+	background: #ffffff;
+	position:relative;
+	right:170px;
+}
+#aboutmetitle {
+	font-size:30px;
+	font-family: georgia;
+	color:#4aaaa5;	
+}
+
+/*This is "Contact" Page material*/
+
+#contacttitle {
+	font-size:30px;
+	font-family: georgia;
+	color:#4aaaa5;	
+}
+
+#contactme{
+	float: left;
+	margin-top: 40px;
+	width: 500px;
+	padding: 50px;
+	height:450px;
+	background: #ffffff;
+	position:relative;
+	right:170px;
+}
+input[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    height: 2.75em;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+	width: 500px;
+	height:150px;
+}
+
+#submitbutton{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: #4aaaa5;
+	color:white;
+	font-size:15px;
+}
+
+#submitbutton:hover{
+	background-color:red;
+}
+
+/*This is "Portfolio" Page material*/
+
+#portfoliotitle{
+	font-size:30px;
+	font-family: georgia;
+	color:#4aaaa5;
+}
+
+#portfoliolist{
+	float: left;
+	margin-top: 40px;
+	width: 600px;
+	padding: 50px;
+	height:450px;
+	background: #ffffff;
+	position:relative;
+	right:170px;
+	display:inline;
+}
+
+#riki{
+	
+	float:left;
+	border:0;
+	margin:0;
+	width:256px;
+	height:144px;
+}
+#lina{
+	float:left;
+	border:0;
+	margin:0;
+	width:256px;
+	height:144px;
+}
+#tidehunter{
+	clear:both;
+	float:left;
+	border:0;
+	margin:0;
+	width:256px;
+	height:144px;
+}
+#timbersaw{
+	float:none;
+	border:0;
+	margin:0;
+	width:256px;
+	height:144px;
+}
+
+#images li{
+	margin: 0;
+	border:0;
+	padding:10px;
+	float: left;
+	display: inline;
+}
+
+#rikibutton{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:20px;
+	border:0;
+	margin:0;
+	padding:10px 40px 10px 40px;
+	position:relative;
+	bottom:50px;
+	left:80px;
+}
+
+#linabutton{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:20px;
+	border:0;
+	margin:0;
+	padding:10px 40px 10px 40px;
+	position:relative;
+	bottom:50px;
+	left:70px;
+}
+
+#tidebutton{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:20px;
+	border:0;
+	margin:0;
+	padding:10px 40px 10px 40px;
+	position:relative;
+	bottom:50px;
+	left:50px;
+}
+
+#timberbutton{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:20px;
+	border:0;
+	margin:0;
+	padding:10px 40px 10px 40px;
+	position:relative;
+	bottom:50px;
+	left:50px;
+}
+
+
+
+
