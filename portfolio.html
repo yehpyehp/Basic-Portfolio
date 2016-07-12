@@ -1,78 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>Paul's Portfolio</title>
-	
+	<meta charset="UTF-8">
+	<title>Portfolio | Paul Yeh</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
 </head>
-
 <body>
-	<header>
 
-	<h1><strong>Paul Yeh</strong></h1>
-		<ul id="list">
-				<li><button id="contact"><a href="file:///C:/Users/paul.yeh/Desktop/Basic-Portfolio/contact.html">Contact</a></button></li>
-				<li><button id="portfolio"><a href="file:///C:/Users/paul.yeh/Desktop/Basic-Portfolio/portfolio.html">Portfolio</a></button></li>
-				<li><button id="about"><a href="file:///C:/Users/paul.yeh/Desktop/Basic-Portfolio/index.html">About</a></button></li>
-		</ul>
-
-
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Paul Yeh</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
 	</header>
-	
-	<!--Content-->
-	<div id="container">
 
-	<!--Page Title-->
-		<div id="portfoliolist">
-			
-			<section id="portfoliotitle">
-				<strong>Portfolio</strong>
-				<hr/>
-			</section>
-			<section id="images">
-			<ul>
-				<li id="riki">
-					<img id="rikiimg" src="assets/images/Riki.png">
-					<button type="button" id="rikibutton">Riki</button>
-				</li>
-				<li id="lina">
-					<img id="linaimg" src="assets/images/Lina.png">
-					<button type="button" id="linabutton">Lina</button>
-				</li>
-				<li id="tidehunter">
-					<img id="tidehunterimg" src="assets/images/Tidehunter.png">
-					<button type="button" id="tidebutton">Tidehunter</button>
-				</li>
-				<li id="timbersaw">
-					<img id="timbersaw" src="assets/images/Timbersaw.png">
-					<button type="button" id="timberbutton">Timbersaw</button>
-				</li>
-			</section>
-		</div>
-		
-		<div class="connectwithme">
-			
-			<section id="connect">
-			<strong>
-				Connect with Me
-				<hr />
-				<ul id="link">
-					<li><a href="https://google.com"><img src="assets/images/github.png"></a></li>
-					<li><a href="https://google.com"><img src="assets/images/linkedin.png"></a></li>
-					<li><a href="https://google.com"><img src="assets/images/stack.png"></a></li>
-				</ul>
-			</strong>
-			</section>
-		</div>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Portfolio</h1>
+
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+				<h3>Hangman</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+				<h3>RPG Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+				<h3>Trivia Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+				<h3>Rutgers Info Widget</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+				<h3>Rock Paper Scissors</h3>
+			</div>
+
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
 	</div>
 
-	<div id="footer">
-		<footer>
-			 * Copyright 2016 Paul Yeh
-		</footer>
-	</div>
-
-
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Paul Yeh
+		</div>
+	</footer>
 </body>
 </html>
